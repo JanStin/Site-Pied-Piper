@@ -1,6 +1,6 @@
 body {
-    width: 1219px;
-    margin: 0 auto;
+    /* width: 1219px;*/
+    margin: 0; 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -10,30 +10,51 @@ a {
     text-decoration: none;
 }
 
+.content {
+    width: 1219px;
+    margin: 0 auto;
+}
 
 /* HEADER */
 header {
     background-color: #007765;
     color: white;
+}
+header .content {
     display: flex;
     flex-direction: row;
 }
 
-header span, header nav {
+header .content span {
     width: 50%;
 }
 
-header span {
-    margin: 20px 0 20px 55px;
+header .content span {
+    margin: 20px 0 20px 155px;
 }
 
-header a {
+header .content a {
     color: white;
 }
 
-header nav ul li{
+header .content nav ul li{
     display: inline;
     list-style: none;
 }
 
+/* END HEADER */
 
+/* One hero-block */
+.hero-one {
+    padding: 160px 0;
+    background-size: cover;
+    background-image: url('../img/image-8.png');
+}
+
+.hero-one-message {
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: white;
+}
