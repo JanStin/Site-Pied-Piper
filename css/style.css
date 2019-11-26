@@ -1,0 +1,39 @@
+body {
+    width: 1219px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* HEADER */
+header {
+    background-color: #007765;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+header span, header nav {
+    width: 50%;
+}
+
+header span {
+    margin: 20px 0 20px 55px;
+}
+
+header a {
+    color: white;
+}
+
+header nav ul li{
+    display: inline;
+    list-style: none;
+}
+
+
