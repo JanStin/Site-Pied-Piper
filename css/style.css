@@ -13,6 +13,7 @@ a {
 .content {
     width: 1219px;
     margin: 0 auto;
+    padding: 0 55px;
 }
 
 /* HEADER */
@@ -58,3 +59,30 @@ header .content nav ul li{
     text-align: center;
     color: white;
 }
+/* End hero-block */
+
+/* Second block */
+.color-eee {
+    padding: 48px 55px 92px 55px;
+    background-color: #EEEEEE;
+}
+
+.title {
+    color: #007765;
+    text-align: center;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.content p {
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.bold {
+    font-weight: bold;
+}
+/* Second end */
+
+/* Hero-two block */
