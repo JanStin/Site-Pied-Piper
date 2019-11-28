@@ -102,6 +102,7 @@ header .content nav ul li{
 }
 /* End hero-two-block */
 
+/* 4 block */
 .one-line {
     display: flex;
     flex-direction: row;
@@ -112,4 +113,33 @@ header .content nav ul li{
     margin-right: 48px;
     width: 115px;
     height: 115px;
+}
+
+/* Team block */
+.team-block {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.team-block h3 {
+    margin: 0;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #007765;
+}
+
+.team-block span {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.team-member {
+    text-align: center;
+    flex-basis: 33%;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
 }
