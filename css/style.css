@@ -86,3 +86,18 @@ header .content nav ul li{
 /* Second end */
 
 /* Hero-two block */
+.hero-two {
+    padding: 128px 0;
+    background-size: cover;
+    background-image: url('../img/image-9.png');
+}
+
+.hero-two-message {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: white;
+}
+/* End hero-two-block */
