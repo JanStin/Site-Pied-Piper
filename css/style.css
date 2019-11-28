@@ -101,3 +101,15 @@ header .content nav ul li{
     color: white;
 }
 /* End hero-two-block */
+
+.one-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.one-line img {
+    margin-right: 48px;
+    width: 115px;
+    height: 115px;
+}
